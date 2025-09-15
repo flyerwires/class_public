@@ -313,7 +313,14 @@ struct background
 
   //@}
 
-  /** @name - technical parameters */
+
+  /* @name - Urformel scalar field parameters and variables */
+  double urformel_mu;        /* dimensionless mass parameter mu = m/H0 */
+  double urformel_c;         /* dimensionless coupling parameter c = alpha * M */
+  double urformel_x_ini;     /* initial value of field x = phi/M at a_i */
+  double urformel_x;         /* current value of field x */
+  double urformel_u;         /* derivative of field x with respect to N (dx/dN) */
+/** @name - technical parameters */
 
   //@{
 
